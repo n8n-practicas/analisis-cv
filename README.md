@@ -18,6 +18,7 @@ Automatización completa del proceso de selección de personal construida sobre 
   - [Bloque 3 — Prueba Psicotécnica](#bloque-3--prueba-psicotécnica)
 - [Estados del Proceso](#estados-del-proceso)
 - [Comunicaciones Automáticas](#comunicaciones-automáticas)
+- [Notificaciones Telegram](#notificaciones-telegram)
 - [Estructura de Datos — Google Sheets](#estructura-de-datos--google-sheets)
 - [Credenciales y Configuración](#credenciales-y-configuración)
 - [Catálogo de Vacantes](#catálogo-de-vacantes)
@@ -187,6 +188,24 @@ Este bloque tiene dos partes encadenadas.
 | Email - Prueba Psicotécnica | ¡Tienes una prueba psicotécnica pendiente! | Estado = Prueba Psicotécnica |
 | Email - Exámenes Médicos | Citación a Exámenes Médicos Laborales | Prueba psicotécnica completada |
 | Email - Contratado | ¡Bienvenido al equipo! | Estado = Contratado |
+
+---
+
+## Notificaciones Telegram
+
+El reclutador recibe alertas en tiempo real en su chat de Telegram en tres momentos clave:
+
+**Candidato aprobado (puntuación ≥ 5)**
+
+![Telegram — Candidato aprobado](images/07-telegram-candidato-aprobado.png)
+
+**Candidato rechazado (puntuación < 5)**
+
+![Telegram — Candidato rechazado](images/08-telegram-candidato-rechazado.png)
+
+**Prueba psicotécnica completada**
+
+![Telegram — Resultado prueba psicotécnica](images/09-telegram-prueba-psicotecnica.png)
 
 ---
 
